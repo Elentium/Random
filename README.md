@@ -76,7 +76,6 @@ print("Random CFrame:", cframe)
 ```
 # API Reference
 
-**Method															Description**
 - `RandomModule.new(seed: number?) -> Random `                      Creates a new RNG instance, optionally seeded
 - `Random:Choice(tbl, blacklist?) -> (any, any?)	`               Selects a random item, optionally excluding blacklisted values
 - `Random:RandomInteger(x, y, blacklist?) -> number`                Random integer between x and y
