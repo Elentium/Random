@@ -74,18 +74,19 @@ local cframe = rng:RandomCFrame(
 )
 print("Random CFrame:", cframe)
 ```
+# API Reference
 
-# Method	                                                        Description
-`RandomModule.new(seed: number?) -> Random `                      Creates a new RNG instance, optionally seeded
-`Random:Choice(tbl, blacklist?) -> (any, any?)	`                 Selects a random item, optionally excluding blacklisted values
-`Random:RandomInteger(x, y, blacklist?) -> number`                Random integer between x and y
-`Random:WeightedChoice(tbl, weightKey?) -> any`                   Chooses an item based on weight probabilities
-`Random:ChooseMultiple(tbl, n, allowDuplicates?) -> {any}`        Selects multiple items
-`Random:RandomFloat(min, max, precision?) -> number	 `            Random float with optional rounding
-`Random:WeightedRandomFloat(min, max, mode?) -> number`           Triangular (biased) random float
-`Random:RandomColor3(...) -> Color3`                              Randomized RGB color
-`Random:RandomVector3(...) -> vector`                             Random 3D position using vector library
-`Random:RandomVector2(...) -> Vector2`                            Random 2D vector
-`Random:RandomCFrame(position, orientation, precision?) -> CFrame`Random 3D transformation
-`Random:RandomUdim2(useScale, ...) -> UDim2	`                     Random UI UDim2 value
-`Random:RandomUdim(useScale, ...) -> UDim	   `                    Random UI UDim value
+**Method	                                                        Description**
+- `RandomModule.new(seed: number?) -> Random `                      Creates a new RNG instance, optionally seeded
+- `Random:Choice(tbl, blacklist?) -> (any, any?)	`               Selects a random item, optionally excluding blacklisted values
+- `Random:RandomInteger(x, y, blacklist?) -> number`                Random integer between x and y
+- `Random:WeightedChoice(tbl, weightKey?) -> any`                   Chooses an item based on weight probabilities
+- `Random:ChooseMultiple(tbl, n, allowDuplicates?) -> {any}`        Selects multiple items
+- `Random:RandomFloat(min, max, precision?) -> number	 `          Random float with optional rounding
+- `Random:WeightedRandomFloat(min, max, mode?) -> number`           Triangular (biased) random float
+- `Random:RandomColor3(...) -> Color3`                              Randomized RGB color
+- `Random:RandomVector3(...) -> vector`                             Random 3D position using vector library
+- `Random:RandomVector2(...) -> Vector2`                            Random 2D vector
+- `Random:RandomCFrame(position, orientation, precision?) -> CFrame`Random 3D transformation
+- `Random:RandomUdim2(useScale, ...) -> UDim2	`                   Random UI UDim2 value
+- `Random:RandomUdim(useScale, ...) -> UDim	   `                    Random UI UDim value
