@@ -1,0 +1,9 @@
+[package]
+name = "elentium/random"
+version = "2.0.62"
+license = "MIT"
+authors = ["IAMNOTULTRA3"]
+description = "A high-performance, feature-complete randomization utility for Luau. This module is a heavily optimized rework of the original Random library, designed specifically for Roblox developers who require precision, speed, and advanced filtering like blacklisting and weighted distribution."
+registry = "https://github.com/UpliftGames/wally-index"
+realm = "shared"
+exclude = ["roblox-studio-insert"]
